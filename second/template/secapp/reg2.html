@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<form action="reg1.html">
+		<p>NAME OF THE STUDENT:</p>
+		<input type="text" name="sname" pattern=".{5,10}" title="please enter atleast 5 characters"placeholder="enter your name">
+		<p>AGE:</p>
+		<input type="text" name="sage" placeholder="enter your age">
+		<p>EMAIL:</p>
+		<input type="email" name="smail" placeholder="enter your mailid" required>
+		<p>ADDRESS:</p>
+		<input type="text" name="saddr" placeholder="enter your city">
+		<p>GROUP:</p>
+		<input type="text" name="sbranch" placeholder="enter your group">
+		<p>gender:</p>
+		<label for="m">male</label>
+		<input type="radio" id="y" name="gender"value="male">
+		<label for="f">female</label>
+		<input type="radio" id="n" name="gender"value="female">
+		<input type="submit" name="submit" value="submit">
+	</form>
+</body>
+</html>
